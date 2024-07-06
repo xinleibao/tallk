@@ -1,0 +1,24 @@
+.self-center(@pos:absolute){
+    position: @pos;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.flex-center(@direction:column){
+    height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:@direction;
+}
+
+.self-fill(@pos:absolute){
+    width: 100%;
+    height: 100%;
+    position:@pos;
+    top: 0;
+    left: 0;
+}
